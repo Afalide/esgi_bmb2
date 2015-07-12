@@ -141,6 +141,21 @@ public class BookListActivity extends Activity {
 	}
 	
 	public void resetFilters(){
+		
+		//before resetting, make sure the current fragment is set
+		
+		if(null == _currentFragment){
+			FragmentManager fragmentManager = getFragmentManager();
+			_currentFragment = (AbstractBookListFragment) fragmentManager.findFragmentById(R.id.fragment_container);
+			
+			if(null == _currentFragment){
+				Log.e(tag,"cannot find current fragment, aborting");
+				return;
+			}
+		}
+		
+		//reset the filters
+		
 		Globals g = Globals.getInstance();
 		g.fragFilterId = 0;
 		g.fragFilterText = "";
