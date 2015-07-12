@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Book My Books 2</string>
+
+    <!-- generic -->
+
+    <string name="book_title">Title</string>
+    <string name="book_author">Author</string>
+
+    <!-- activity home -->
+    
+    <string name="activityhome_booklistbt">Book List</string>
+    <string name="activityhome_updatebt">Update Database</string>
+    
+    <!-- activity book list -->
+    
+    <string name="activitybooklist_btnewbook">New book</string>
+    <string name="activitybooklist_taball">All</string>
+    <string name="activitybooklist_tabfilter">Filter</string>
+    <string name="activitybooklist_tabsort">Sort</string>
+    
+    <!-- activity update database -->
+    
+    <string name="activityupdatedatabase_title">Update database</string>
+	<string name="activityupdatedatabase_btreset">Reset to factory default</string>
+    <string name="activityupdatedatabase_btdownload">Download new database</string>
+	<string name="activityupdatedatabase_descreset">Reset the application to factory defaults. This will erase the database and replace it with a default one.</string>
+    <string name="activityupdatedatabase_descdownload">Download a new database from paris.opendata.fr. This will erase the database and replace it with the downloaded one.</string>
+	<string name="activityupdatedatabase_progressdljson">Downloading json data… </string>
+	<string name="activityupdatedatabase_progressnettimeout">Network error (timeout)</string>
+	<string name="activityupdatedatabase_progressneterror">Network error (check your internet connection)</string>
+    <string name="activityupdatedatabase_progressjsonerror">Failed to download data</string>
+    <string name="activityupdatedatabase_progressjsonloaded">Data downloaded</string>
+    <string name="activityupdatedatabase_progressjsonparse">Reading data…</string>
+    <string name="activityupdatedatabase_progressjsonparseerror">Failed to parse JSON data</string>
+    <string name="activityupdatedatabase_progressupdatedb">Updating database… </string>
+	<string name="activityupdatedatabase_progressdone">Done</string>
+	<string name="activityupdatedatabase_progressreset">Resetting database… </string>
+	
+	<!-- dialog edit book-->
+    
+    <string name="dialogeditbook_title">Edit book properties</string>
+   	<string name="dialogeditbook_positive">Save</string>
+    <string name="dialogeditbook_negative">Cancel</string>	
+	
+    <!-- dialog set quantity to download -->
+    
+    <string name="dialogquantitytodl_description">Quantity to download</string>
+    <string name="dialogquantitytodl_quantity">Books quantity:</string>
+    <string name="dialogquantitytodl_positive">Download</string>
+    <string name="dialogquantitytodl_negative">Cancel</string>	
+    
+    <!-- popup long press book list -->
+    
+    <string name="booklistpopupmenu_edit">Edit</string>
+    <string name="booklistpopupmenu_delete">Delete</string>
+    
+    <!-- fragment download progress -->
+    
+    <string name="fragprogress_cancelbt">Cancel</string>
+    <string name="fragprogress_actioncancelled">Action cancelled by user</string>
+    
+    <!-- fragment book list filter -->
+    
+    <string name="fragbooklistfilter_search">Search</string>
+    <string name="fragbooklistfilter_filterby">Filter by</string>
+    <string name="fragbooklistfilter_go">Go</string>
+    <string-array name="fragbooklistfilter_spinnerstrings">
+        <item>None</item>
+        <item>Title</item>
+        <item>Author</item>
+    </string-array>
+    
+    <!-- fragment book list sort -->
+    
+    <string name="fragbooklistsort_sortby">Sort by</string>
+    
+    <!--  option menu for book list activity -->
+    
+    <string name="menubooklist_newbook">New Book</string>
+    <string name="menubooklist_resetfilters">Reset filters</string>
+    
+</resources>

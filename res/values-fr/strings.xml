@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Book My Books 2</string>
+
+    <!-- generic -->
+
+    <string name="book_title">Titre</string>
+    <string name="book_author">Auteur</string>
+
+    <!-- activity home -->
+    
+    <string name="activityhome_booklistbt">Liste des livres</string>
+    <string name="activityhome_updatebt">Mise à jour</string>
+    
+    <!-- activity book list -->
+    
+    <string name="activitybooklist_btnewbook">Ajouter un livre</string>
+    <string name="activitybooklist_taball">Liste</string>
+    <string name="activitybooklist_tabfilter">Filtrer</string>
+    <string name="activitybooklist_tabsort">Trier</string>
+    
+    <!-- activity update database -->
+    
+    <string name="activityupdatedatabase_title">Mise à jour de la base</string>
+	<string name="activityupdatedatabase_btreset">Réinitialisation</string>
+    <string name="activityupdatedatabase_btdownload">Télécharger une base</string>
+	<string name="activityupdatedatabase_descreset">Restaure la base de données par défaut de l\'application. Ceci efface la base et la remplace par la version d\'origine.</string>
+    <string name="activityupdatedatabase_descdownload">Télécharge une base de données depuis paris.opendata.fr. Ceci remplacera la base de données actuelle.</string>
+	<string name="activityupdatedatabase_progressdljson">Téléchargement… </string>
+	<string name="activityupdatedatabase_progressnettimeout">Erreur réseau (timeout)</string>
+	<string name="activityupdatedatabase_progressneterror">Erreur réseau (vérifiez votre connexion internet)</string>
+    <string name="activityupdatedatabase_progressjsonerror">Echec du téléchargement</string>
+    <string name="activityupdatedatabase_progressjsonloaded">Données téléchargées</string>
+    <string name="activityupdatedatabase_progressjsonparse">Lecture des données…</string>
+    <string name="activityupdatedatabase_progressjsonparseerror">Echec de lecture des données</string>
+    <string name="activityupdatedatabase_progressupdatedb">Mise à jour de la base… </string>
+	<string name="activityupdatedatabase_progressdone">Terminé</string>
+	<string name="activityupdatedatabase_progressreset">Réinitialisation… </string>
+	
+	<!-- dialog edit book-->
+    
+    <string name="dialogeditbook_title">Changer les infos du livre</string>
+   	<string name="dialogeditbook_positive">Enregistrer</string>
+    <string name="dialogeditbook_negative">Annuler</string>	
+	
+    <!-- dialog set quantity to download -->
+    
+    <string name="dialogquantitytodl_description">Taille du téléchargement</string>
+    <string name="dialogquantitytodl_quantity">Quantité de livres:</string>
+    <string name="dialogquantitytodl_positive">Télécharger</string>
+    <string name="dialogquantitytodl_negative">Annuler</string>	
+    
+    <!-- popup long press book list -->
+    
+    <string name="booklistpopupmenu_edit">Modifier</string>
+    <string name="booklistpopupmenu_delete">Supprimer</string>
+    
+    <!-- fragment download progress -->
+    
+    <string name="fragprogress_cancelbt">Annuler</string>
+    <string name="fragprogress_actioncancelled">Action annulée par l\'utilisateur</string>
+    
+    <!-- fragment book list filter -->
+    
+    <string name="fragbooklistfilter_search">Rechercher</string>
+    <string name="fragbooklistfilter_filterby">Filtrer par</string>
+    <string name="fragbooklistfilter_go">Ok</string>
+    <string-array name="fragbooklistfilter_spinnerstrings">
+        <item>Aucun</item>
+        <item>Titre</item>
+        <item>Auteur</item>
+    </string-array>
+    
+    <!-- fragment book list sort -->
+    
+    <string name="fragbooklistsort_sortby">Trier par</string>
+    
+    <!--  option menu for book list activity -->
+    
+    <string name="menubooklist_newbook">Nouveau livre</string>
+    <string name="menubooklist_resetfilters">Supprimer les filtres</string>
+    
+</resources>

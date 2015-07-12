@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragbooklistfilter_search"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/fragbooklistfilter_searchbox"
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+        android:text="@string/fragbooklistfilter_filterby"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Spinner
+        android:id="@+id/fragbooklistfilter_spinner"
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/fragbooklistfilter_gobutton"
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+        android:text="@string/fragbooklistfilter_go" />
+
+</LinearLayout>
